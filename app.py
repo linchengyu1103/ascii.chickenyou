@@ -12,7 +12,7 @@ FRAME_DELIMITER = "---FRAME---"
 
 # --- 自動讀取動畫幀 ---
 try:
-    with open("frame.txt", "r", encoding="utf-8") as f:
+    with open("frames.txt", "r", encoding="utf-8") as f:
         content = f.read()
     
     # 使用分隔符號將整個檔案內容切分成幀
